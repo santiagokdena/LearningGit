@@ -10,11 +10,24 @@ body{
     border: 1px solid #ddd;    
     margin: 0 auto;
     align-items: center;
+    text-align: center;
 }
 #container h1 {
     font-size: 20px;
 }
 
-#post {
-    text-align: center;
+#cabecera{
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    -webkit-box-shadow: 10px -7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px -7px 5px 0px rgba(0,0,0,0.75);
+    }
+#cabecera #tagline{
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0 0 0 1em;
 }
