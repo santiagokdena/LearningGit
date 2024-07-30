@@ -16,4 +16,8 @@ Comandos Importantes Extracción:
 ![alt text](image-2.png)
 
 ### Branches
-    Para fucionar una rama con otra: Git Merge
+    Status de rama: git status (sin hacer git push)
+    Para fucionar una rama con otra: git merge
+    Moverse de rama que le apunta HEAD: git checkout _branch_
+    Explicación: 
+    ![alt text](image-3.png)
